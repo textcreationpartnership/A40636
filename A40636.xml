@@ -1,0 +1,814 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon to the clergie at Stony-Stratford in the county of Bucks, Octob. 27, 1670 by Ignatius Fuller.</title>
+            <author>Fuller, Ignatius, 1624 or 5-1711.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1672</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 71 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A40636</idno>
+            <idno type="STC">Wing F2392</idno>
+            <idno type="STC">ESTC R2184</idno>
+            <idno type="EEBO-CITATION">15714537</idno>
+            <idno type="OCLC">ocm 15714537</idno>
+            <idno type="VID">104500</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A40636)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 104500)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1593:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon to the clergie at Stony-Stratford in the county of Bucks, Octob. 27, 1670 by Ignatius Fuller.</title>
+                  <author>Fuller, Ignatius, 1624 or 5-1711.</author>
+               </titleStmt>
+               <extent>[2], 44 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Evan Tyler and Ralph Holt, for R. Royston ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1672.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Running title: A visitation sermon.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+                  <note>Includes bibliographical references.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Mark IX, 50 --  Sermons.</term>
+               <term>Visitation sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:104500:1"/>
+            <p>A SERMON TO THE Clergie AT <hi>STONY-STRATFORD</hi> In the County of BUCKS, Octob. 27. 1670.</p>
+            <bibl>St. <hi>James.</hi>
+            </bibl>
+            <q>The Wiſdom that is from above is firſt <hi>Pure,</hi> then <hi>Peaceable.</hi>
+            </q>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</q>
+            <p>By <hi>Ignatius Fuller.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Evan Tyler,</hi> and <hi>Ralph Holt,</hi> for <hi>R. Royſton,</hi> Book-Seller to the King's moſt Excellent Majeſty. 1672.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:104500:2"/>
+            <pb n="1" facs="tcp:104500:2"/>
+            <epigraph>
+               <bibl>Mark 9. 50.</bibl>
+               <q>Have ſalt in your ſelves, and have peace one with another.</q>
+            </epigraph>
+            <p>FOR the better underſtanding of theſe words, we muſt open the 49. Verſe. <hi>For every one ſhall be ſalt<g ref="char:EOLhyphen"/>ed with fire, and every ſacrifice ſhall be ſalted with ſalt.</hi>
+            </p>
+            <p>The particle <hi>For,</hi> intimates their con<g ref="char:EOLhyphen"/>nexion with the precedent words; and that they have the ſame ſence, will ap<g ref="char:EOLhyphen"/>pear by the ſequel of this Diſcourſe; <hi>viz.</hi> That ſome part of the Body periſh, that the whole may be preſerved: which our Lord illuſtrates by an alluſion to the two-fold Oblation, or the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in the <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> firſt and ſecond of <hi>Leviticus,</hi> the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the burnt-Offering and the meat-Offering; the firſt was all burnt upon the Altar, in the ſecond the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> only, or the memorial, which was <note place="margin">
+                  <hi>Lev.</hi> 2. 2 <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Lev.</hi> 2. 13.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a ſweet ſavour unto the Lord: of this chiefly did the Law pro<g ref="char:EOLhyphen"/>vide;
+<pb n="2" facs="tcp:104500:3"/> Every Oblation of thy meat-of<g ref="char:EOLhyphen"/>fering ſhalt thou ſeaſon with Salt, nei<g ref="char:EOLhyphen"/>ther ſhalt thou ſuffer the Salt of the Co<g ref="char:EOLhyphen"/>venant of thy God to be lacking from thy meat-offering; and then adds; With all thy Offerings thou ſhalt offer Salt: which former words the LXXII. tranſlate thus. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and from them St. <hi>Mark,</hi> with reſpect to the ſence, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>i. e.</hi> E<g ref="char:EOLhyphen"/>very gift of Sacrifice, or every Sacrifice, ſhall be ſalted with Salt. So that two things our Lord ſays; 1. Every one ſhall be ſalted with fire, that is of <hi>them</hi> of whom he was ſpeaking, who ſhould indulg their vitious and depraved affections. They <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> ſhould be ſalted with fire, <hi>i. e.</hi> with both their eyes, and hands, and feet ſhould be confined to the Worm that doth not dye, and the Fire that is not quenched. A plain alluſion to the perpetuity of the <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>v.</hi> 45. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Philo <hi>of them that offer ſa<g ref="char:EOLhyphen"/>crifice. p.</hi> 851. Paris 1640.</note> fire upon the Altar of the burnt-offer<g ref="char:EOLhyphen"/>ings; for <hi>Philo</hi> obſerves, it was a Law of the exterior Altar, <hi>Fire ſhall burn inceſ<g ref="char:EOLhyphen"/>ſantly upon the Altar:</hi> and though he makes that ſacred Flame a <hi>Symbol</hi> of our inceſſant Gratitude; yet our Lord refers to the conſuming quality of it: and in reſpect to the great Act of his Juſtice, God himſelf is called a Conſu<g ref="char:EOLhyphen"/>ming Fire. And indeed <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſignifies as
+<pb n="3" facs="tcp:104500:3"/> well to be <hi>conſumed,</hi> as to be <hi>ſalted.</hi> So the Prophet; <hi>the Heavens ſhall vaniſh as</hi> 
+               <note place="margin">
+                  <hi>Heb.</hi> 12. 29. <hi>Deut.</hi> 4. 24. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Eſai.</hi> 51. 6. Sym. Aqui. <hi>Comminuetur, in ſalis modum conterentur.</hi> Nobil. <hi>Jer.</hi> 38. 11. <hi>Vim conſu<g ref="char:EOLhyphen"/>mendi.</hi>
+               </note> 
+               <hi>Smoak.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Hence <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, old rotten rags which <hi>Abedmelech</hi> ſupplied the Prophet with, to ſave his body from the Cords, by which he deſigned to take him out of the Dungeon. And in that reſpect Salt is like to Fire; that it hath a faculty of conſuming as well as fire, with this difference; it conſumes but part, where<g ref="char:EOLhyphen"/>as Fire, to uſe <hi>Philo</hi>'s words, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> conſumes the whole.</p>
+            <p>Every Sacrifice ſhall be ſalted with Salt; here our <hi>Lord</hi> takes the word in its proper ſignification, and intimates that every one who would be an ac<g ref="char:EOLhyphen"/>ceptable Sacrifice unto God, muſt <hi>re<g ref="char:EOLhyphen"/>fine</hi> and <hi>preſerve himſelf</hi> pure from all evil and corrupt Affections, as the Sa<g ref="char:EOLhyphen"/>crifice is by Salt from all putrefaction. The <hi>Summ</hi> is this. Every man muſt by all means ſuffer ſome or other conſum<g ref="char:EOLhyphen"/>ption; either by way of Salting, or by way of burning. This is the Vitious perſon, who will not <hi>mortifie,</hi> nor cru<g ref="char:EOLhyphen"/>cifie his ſinful Luſts and Affections; he ſhall be ſalted with Fire, like the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſhall be wholly burnt up, and conſumed, <hi>i. e.</hi> go whole into a ſtate of perdition.</p>
+            <pb n="4" facs="tcp:104500:4"/>
+            <p> The other is the <hi>Vertuous</hi> Man, the true and real Chriſtian, who is content<g ref="char:EOLhyphen"/>ed to part with Hand, or Foot, or Eye, or whatſoever elſe ſhall ſtand in competition with his obedience to his dear Lord and Maſter Jeſus Chriſt. He like the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is ſalted with Salt, a part of him only is conſumed; and he en<g ref="char:EOLhyphen"/>ters maimed into a ſtate of life.</p>
+            <p>The Holy Scriptures frequently al<g ref="char:EOLhyphen"/>lude <note place="margin">
+                  <hi>Eſ</hi> 34. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, 6. <hi>Jer.</hi> 46. 10.</note> to both theſe Sacrifices: To the firſt; <hi>My Sword ſhall be bathed in Hea<g ref="char:EOLhyphen"/>ven; behold it ſhall come down upon Idu<g ref="char:EOLhyphen"/>mea, and upon the people of my curſe to judgment; the Sword of the Lord is fill<g ref="char:EOLhyphen"/>ed with blood,</hi> &amp;c. <hi>For the Lord hath a Sacrifice in Bozra, and a great ſlaughter in the Land of Idumea.</hi>
+            </p>
+            <p>To the ſecond; <hi>I beſeech you by the mercies of God, that you preſent your</hi> 
+               <note place="margin">
+                  <hi>Rom.</hi> 12. 1. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Bodies a living Sacrifice, holy, acceptable unto God, which is your reaſonable Ser<g ref="char:EOLhyphen"/>vice.</hi>
+            </p>
+            <p>So St. <hi>Peter:</hi> We are an <hi>holy Prieſt<g ref="char:EOLhyphen"/>hood,</hi> 
+               <note place="margin">1 <hi>Pet.</hi> 2. 5. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>to offer up ſpiritual Sacrifices ac<g ref="char:EOLhyphen"/>ceptable unto God.</hi> Such as are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; Prayers and Euchariſts offered up by worthy per<g ref="char:EOLhyphen"/>ſons; theſe are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <note place="margin">J. Martyr.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as the <hi>holy man</hi> ſpeaks; the only perfect and acceptable Sacrifices unto
+<pb n="5" facs="tcp:104500:4"/> God. In alluſion hereunto St. <hi>Paul</hi> 
+               <note place="margin">
+                  <hi>Col.</hi> 4. 6.</note> would have our ſpeech always ſeaſoned with Salt, <hi>i. e.</hi> defecate and refined from every thing that is putrid, cor<g ref="char:EOLhyphen"/>rupt, and rotten. The former words of this Verſe are thought to be <hi>loco non ſuo,</hi> however may be ſhut up in a Paren<g ref="char:EOLhyphen"/>theſis, and ſo we are at the Text.<hi>—Have ſalt in your ſelves, and have peace one with another.</hi>
+            </p>
+            <p>But here I cannot but obſerve an<g ref="char:EOLhyphen"/>other quality of Salt, <hi>viz.</hi> its <hi>
+                  <g ref="char:V">Ʋ</g>nitive,</hi> or <hi>Henotic.</hi> 'Twas of old a <hi>Symbol</hi> of <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Eu<g ref="char:EOLhyphen"/>ſtath.</hi>
+               </note> Union and friendſhip, which is never more ſeaſonable, than in our approaches to that God who is <hi>One.</hi> Of its uſe in holy things, our Books abound with inſtances.</p>
+            <lg>
+               <l>
+                  <hi>Immunis aram ſi tetigit manus</hi>
+               </l>
+               <l>
+                  <hi>Non ſumptuoſa blandior hoſtia</hi> 
+                  <note place="margin">
+                     <hi>Salientem mi<g ref="char:EOLhyphen"/>cam ſalis gra<g ref="char:EOLhyphen"/>num intellige, quod ſaliat cum in ignem miſſum ſit.</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>orphyr. <hi>Far pium</hi> is <hi>mola ſalſa,</hi> which Greeks call <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>Schol.</hi> on <hi>Ho<g ref="char:EOLhyphen"/>mer.</hi> Barly mingled with ſalt.</note>
+               </l>
+               <l>
+                  <hi>Mollibit averſos penates</hi>
+               </l>
+               <l>
+                  <hi>Farre pio, &amp; ſaliente mica.</hi> [i. e.]</l>
+            </lg>
+            <p>An innocent life, with a little <hi>Mola ſalſa,</hi> ſhall propitiate your Houſhold Gods, ſooner than whole <hi>Hecatombs</hi> without it. So <hi>Tibullus.</hi>
+            </p>
+            <q>
+               <l>—Omnia noctis</l>
+               <l>Farre pio placant, &amp; ſaliente ſale.</l>
+            </q>
+            <pb n="6" facs="tcp:104500:5"/>
+            <p> A little flower and ſalt expiats all the errours of the night. So likewiſe of its uſe in civil converſation; hereto <hi>Aeſ<g ref="char:EOLhyphen"/>chines</hi> refers when he tells us we ought highly to eſteem the <hi>ſalts</hi> of the City, and the publick table.</p>
+            <p>Hither alſo muſt we refer the Symbol of <hi>Pythagoras, ſalem apponito,</hi> ſet on the <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Laertius in vi<g ref="char:EOLhyphen"/>ta Pythag. p.</hi> 222. <hi>edit. Lond.</hi> 1664. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Reverentia menſae.</hi>
+               </note> ſalt, by which he would that we ſhould not diſſolve friendſhip; becauſe ſalt preſerves every thing from putrefaction, and is made of the moſt pure, and liquid things, <hi>viz.</hi> Water, and the Sea, as <hi>Gy<g ref="char:EOLhyphen"/>raldus</hi> obſerves: So <hi>ſalem, &amp; menſam ne praeterito,</hi> deſpiſe not the <hi>ſalt</hi> and table; whence the Reverence of the table was put for the law of friendſhip, as <hi>Juvenal, Claudian, Euripides in Hecuba &amp; Thec<g ref="char:EOLhyphen"/>critus in Hyla</hi> uſe it, and for that reaſon the <hi>Antients</hi> were wont to ſet it before their Gueſts before all other meat. But I ſhall end this obſervation with one an<g ref="char:EOLhyphen"/>tient and one modern teſtimony of this cuſtom.</p>
+            <p>The firſt is of <hi>Origen</hi> ſpeaking of <hi>Ju<g ref="char:EOLhyphen"/>das</hi> 
+               <note place="margin">In his Com<g ref="char:EOLhyphen"/>ments of St. <hi>Matthew.</hi>
+               </note> the Traytor. <hi>Neque ſalis ejuſdem, neque menſae, neque panis communicati memor:</hi> That he was mindful neither of the ſame ſalt nor table, nor the bread which our Lord communicated to him.</p>
+            <pb n="7" facs="tcp:104500:5"/>
+            <p> The ſecond is of <hi>Baron Sigiſmond</hi> who reports the <hi>Czar</hi> has no greater expreſſi<g ref="char:EOLhyphen"/>ons of his kindneſs than to ſend from his table <hi>bread</hi> and <hi>ſalt, idque maximi ho<g ref="char:EOLhyphen"/>noris loco habetur,</hi> which is eſteemed a very great honour, which he himſelf re<g ref="char:EOLhyphen"/>ceived when <hi>Ambaſſadour</hi> both from <hi>Maximilian</hi> and <hi>Ferdinand</hi> to <hi>Baſilius.</hi> He was alſo invited to dine with the Prince, with theſe words, <hi>Sigiſmunde comedes ſal &amp; panem nostrum nobiſcum; Sigiſmund</hi> you ſhall eat our bread, and ſalt with us: And to this cuſtom 'tis not unlike but our <hi>Lord</hi> alludes in theſe words, <hi>Have ſalt in your ſelves, and have peace one with another.</hi>
+            </p>
+            <p>He had obſerved that envy and ambi<g ref="char:EOLhyphen"/>tion had moved that queſtion, <hi>verſ.</hi> 34. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which of them ſhould be the greateſt? and therefore in order to the <hi>latter</hi> 'tis no wonder he referred to the <hi>former</hi> of theſe <hi>ſymbolical</hi> qualities; I mean that in order unto <hi>peace</hi> that he referred unto <hi>purgation. For only by</hi> 
+               <note place="margin">Prov. 13. 10.</note> 
+               <hi>pride comes contention.</hi> So that you may pleaſe to take this Paraphraſe of the words. <hi>Let the doctrine of the Goſpel corrode and eat out all the corruptions of your ſouls, and minds, and oblige you to all amity and peaceableneſs one with an<g ref="char:EOLhyphen"/>other;</hi> of the latter of which I ſhall
+<pb n="8" facs="tcp:104500:6"/> chuſe to intreat chiefly, and of the for<g ref="char:EOLhyphen"/>mer only in order thereunto.</p>
+            <p>Where you muſt not expect a tedious <hi>harangue</hi> in praiſe of peace: For, <hi>Quis unquam Herculem vituperavit?</hi> whoever diſpraiſed it? but rather a ſevere <hi>ſtricture</hi> and <hi>reflection</hi> upon the want of <hi>charity</hi> in the Chriſtian World, with a propoſal of ſome cauſes of that defect. Such as is,</p>
+            <list>
+               <item>1. The <hi>non-purgation</hi> of all vitious and depraved affections.</item>
+               <item>2. The miſtaking the <hi>true notion</hi> of the Chriſtian Religion.</item>
+               <item>3. The overvaluing of <hi>opinions.</hi>
+               </item>
+               <item>4. The advancing doctrines which have <hi>no good influence</hi> upon our lives.</item>
+               <item>5. The taking up the ſence of <hi>late men,</hi> without inquiring after the good old paths, wherein the <hi>Fathers</hi> of the <hi>first</hi> and <hi>best</hi> Ages walked; and ſuch like.</item>
+            </list>
+            <p>And if peace was the laſt <hi>Legacy</hi> our Lord left us before he dyed, and the firſt <hi>bleſſing</hi> with which he did ſalute us after he roſe again; how is it that that innocent <hi>dove</hi> has ſo many Ages ſince taken her flight, <hi>&amp; Terram</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>reli<g ref="char:EOLhyphen"/>quit?</hi> Of old in the multitude of be<g ref="char:EOLhyphen"/>lievers <note place="margin">
+                  <hi>Acts</hi> 4. 32.</note> there was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, one heart, and one ſoul; and their mutu<g ref="char:EOLhyphen"/>al
+<pb n="9" facs="tcp:104500:6"/> charities, did <hi>notam nobis inurere,</hi> did ſignaliſe us, ſaith <hi>Tertullian:</hi> See, ſay they, how Chriſtians love one another, and are ready to die for one another. 'Twas <hi>Lucian</hi>'s obſervation in his <hi>pere<g ref="char:EOLhyphen"/>grinus,</hi> 
+               <note place="margin">
+                  <hi>Vide inquiunt ut invicem ſe diligunt; ut pro alterutro mori ſint parati;</hi> Tertul.</note> who ſpeaking of his impriſon<g ref="char:EOLhyphen"/>ment, tells us 'tis incredible what zeal, and celerity the Chriſtians expreſſed in viſiting and relieving of him; in ſuch caſes Chriſtians were wont to <hi>ſpare for</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>nothing;</hi> nay they inriched him, and aſſigning the reaſon hereof, he ſaith, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <note place="margin">
+                  <hi>Lucian pag.</hi> 996. <hi>Edit. Par.</hi> 1615.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>i. e.</hi> Their chief Law<g ref="char:EOLhyphen"/>giver perſwaded them they would be<g ref="char:EOLhyphen"/>come mutual Brethren.</p>
+            <p>So the City <hi>Prefect</hi> in the paſſion of <note place="margin">Deridiculi cauſâ.</note> 
+               <hi>Vincentius</hi> calls Chriſtians by way of ſcorn <hi>Fratres,</hi> Brethren. But whoſo<g ref="char:EOLhyphen"/>ever ſhall take a view of the Chriſtian Churches from the beginning of the Fourth Century down to this very day; muſt needs ſuffer ſome kind of commo<g ref="char:EOLhyphen"/>tion even for Religions ſake; where he ſhall find no footſteps of that <hi>Primitive charity,</hi> though it may be, now and then a good man in vain calling for it.</p>
+            <p>Of old the Church was all one body compacted by the <hi>Literae formatae</hi> even from the <hi>Rhene</hi> to <hi>Nilus;</hi> from the <hi>Brit<g ref="char:EOLhyphen"/>tiſh Ocean</hi> to and beyond <hi>Euphrates:</hi>
+               <pb n="10" facs="tcp:104500:7"/> but now every little ſpot of earth has (God help us) a ſeveral Church Catho<g ref="char:EOLhyphen"/>lick: Nay ever ſince the opening of the <hi>Springs</hi> of Controverſies, and the de<g ref="char:EOLhyphen"/>termining of unneceſſary Queſtions, the Church has ſuffered a deluge of Opini<g ref="char:EOLhyphen"/>ons, and Schiſms, with which at this day 'tis over-run, and which is the ſaddeſt effect of all, ſince we are become <hi>anathe<g ref="char:EOLhyphen"/>ma</hi> 
+               <note place="margin">
+                  <hi>Dum alter al<g ref="char:EOLhyphen"/>teri anathema eſſe coepit, pro<g ref="char:EOLhyphen"/>pe ſaue nemo eſt Chriſti St.</hi> Hyl.</note> 
+               <hi>to one another, almoſt no man is found cloſely to adhere to Chriſt.</hi> The <hi>diſſenti<g ref="char:EOLhyphen"/>ons</hi> of Chriſtians are the diſgrace of Chriſtianity. Witneſs the woful effects of the <hi>Alexandrian</hi> controverſie, where<g ref="char:EOLhyphen"/>in we have ſeen <hi>Council</hi> condemning <hi>Council,</hi> and one Prelate <hi>another.</hi>
+            </p>
+            <p>Whom would it not grieve to ſee the <hi>Mitre</hi> and the <hi>Croſier</hi> ſtrangely convert<g ref="char:EOLhyphen"/>ed into the <hi>Helmet,</hi> and the <hi>Partizan;</hi> and ſuch ingenious cruelties practiſed upon one another, as quite out-did the bloody Pagans? So that a <hi>Heathen</hi> com<g ref="char:EOLhyphen"/>plained, <note place="margin">
+                  <hi>Nullae infestae hominibus be<g ref="char:EOLhyphen"/>ſtiae ut ſunt ſi<g ref="char:EOLhyphen"/>bi ferales pleri<g ref="char:EOLhyphen"/>que Chriſtiano<g ref="char:EOLhyphen"/>rum,</hi> Ammi<g ref="char:EOLhyphen"/>an. Marcel.</note> No <hi>Wolves</hi> nor <hi>Tygers,</hi> nor beaſt of <hi>prey</hi> are ſo hurtful to man as very ma<g ref="char:EOLhyphen"/>ny Chriſtians are to one another. What <hi>Ingenuous</hi> Chriſtian is not troubled to hear <hi>Julian</hi> beſpeaking diſſenting Chri<g ref="char:EOLhyphen"/>ſtians. <hi>Audite me quem</hi> Alemanni <hi>audi<g ref="char:EOLhyphen"/>erunt, &amp;</hi> Franci, <hi>i. e.</hi> hear me whom the barbarous Nations have heard: To hear <hi>Marcus Antoninus; O</hi> Marcoman<g ref="char:EOLhyphen"/>ni,
+<pb n="11" facs="tcp:104500:7"/> 
+               <hi>O</hi> Quadi, <hi>O</hi> Sarmatae <hi>tandem alios vo<g ref="char:EOLhyphen"/>bis inquietiores inveni;</hi> at length I have found ſome others more ſeditious and more <hi>unquiet</hi> than your ſelves: So that a <hi>Pariſian maſſacre,</hi> a <hi>Guiſian league,</hi> or a <hi>Powder-Treaſon,</hi> and that too for Religion's ſake (the more's the pity) is no great wonder in the World. But O tell it not in <hi>Gath,</hi> nor publiſh it in the <note place="margin">2 <hi>Sam.</hi> 1. 20.</note> ſtreets of <hi>Aſcalon,</hi> leſt the Daughters of the <hi>Philistins</hi> rejoyce, leſt the Daughters of the uncircumciſed tri<g ref="char:EOLhyphen"/>umph.</p>
+            <p>The Great <hi>Euſebius</hi> complained that <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> the forementioned <hi>Alexandrian</hi> diviſion cauſed the venerable divine doctrine to undergo the impure ſcorns and ludibries even of the <hi>Pagans</hi> in the midſt of their <hi>Theaters.</hi> And how much Religion ſuf<g ref="char:EOLhyphen"/>fers in theſe late days by theſe means a<g ref="char:EOLhyphen"/>mongſt weak men, who cannot, or will not diſtinguiſh betwixt humane paſſions, and divine revelations, I need not now remember. What devaſtation the <hi>holy houſe,</hi> the <hi>Sambanite,</hi> and the fatal <hi>pile</hi> have they made in the World! We have ſeen <hi>Princes</hi> unthroned, <hi>Prelates</hi> unchair<g ref="char:EOLhyphen"/>ed, and people over run with <hi>fire</hi> and <hi>ſword,</hi> and all for Religion.</p>
+            <p>
+               <hi>Tantum Relligio potuit ſuadere malorum?</hi>
+            </p>
+            <pb n="12" facs="tcp:104500:8"/>
+            <p> For Religion did I ſay? no St. <hi>James</hi> has better reſolved that queſtion, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, whence are wars and fightings? are they not from your pleaſures? by a Metonymy, <hi>i. e.</hi> for the deſires of things rather pleaſurable than neceſſary for hu<g ref="char:EOLhyphen"/>mane, or divine life.</p>
+            <q>
+               <l>
+                  <hi>Divitis hoc vitium eſt auri, nec bella fuere</hi> 
+                  <note place="margin">
+                     <hi>Ex cupiditati<g ref="char:EOLhyphen"/>bus odia diſſi<g ref="char:EOLhyphen"/>dia, diſcordiae, ſeditiones, bella na ſcuntur,</hi> Ci<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 1. <hi>de</hi> Fin.</note>
+               </l>
+               <l>
+                  <hi>Faginus adſtabat cum ſcyphus ante dapes.</hi>
+               </l>
+            </q>
+            <p>When men drank in a treen diſh, there were no wars.</p>
+            <p>Our hatred, diſſenſions, diſcords, ſe<g ref="char:EOLhyphen"/>ditions, our <hi>holy</hi> and <hi>unholy</hi> wars are from our luſts, our envy, our pride, our avarice, and our ambition: So that a great part of our ſufficiency for theſe things is a cordial endeavour after an univerſal <hi>purity</hi> of heart, and life.</p>
+            <p>And therefore the beſt Philoſophers do frequently diſcourſe of their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, purgative vertues as neceſſary to preſerve the ſoul for the knowledge of the moſt excellent, and uſeful truths. <hi>For into a malicious ſoul wiſdom ſhall not enter, nor dwell in the body that is ſubject</hi> 
+               <note place="margin">
+                  <hi>Wiſ.</hi> 1. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>unto ſin.</hi> Wickedneſs is deſtructive of principles; and this notion is agreeable to the ſence of all mankind.</p>
+            <p>Amongſt the <hi>Gentiles</hi> before a man
+<pb n="13" facs="tcp:104500:8"/> could be imbued with the diſcipline of the <hi>Eleuſinia Sacra,</hi> or the holy things of the <hi>Magna Mater,</hi> he muſt by cer<g ref="char:EOLhyphen"/>tain degrees, and definite intervals of time be purged from the pollutions of this life, and the <hi>ſordes</hi> of his ſins.</p>
+            <p>They had their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and then their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and at length their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, their publick <hi>purgations,</hi> their more <hi>recon<g ref="char:EOLhyphen"/>did,</hi> their <hi>aggregations, initiations,</hi> and then their <hi>viſions:</hi> So we read no man could be conſummate in the myſteries of <hi>Mythra,</hi> unleſs having paſſed through many degrees of puniſhments, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>i. e.</hi> he preſent himſelf holy, and unhurt. He muſt go through fire and water, hunger and thirſt, great travels and ſuch like, 80 in number: Firſt, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and then the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, The lighter, then the more labourſome, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſo the <hi>Candidate</hi> is conſummate.</p>
+            <p>So the Primitive Chriſtians always cauſed the <hi>Via purgativa</hi> to precede the <hi>via illuminativa,</hi> from whom the <hi>myſti<g ref="char:EOLhyphen"/>cal</hi> Divines had it. So the pretended <hi>Dionyſius</hi> diſtinguiſhes the operation of the ſacred <hi>Myſteries</hi> into three actions <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> divided by their proper rites and ſea<g ref="char:EOLhyphen"/>ſons, <hi>purgation, initiation,</hi> and <hi>perfection.</hi>
+            </p>
+            <pb n="14" facs="tcp:104500:9"/>
+            <p> The like we may obſerve in the whole procedure of the antient Church, either concerning ſuch as were to be made Chriſtians, or were to be reſtored to the communion of the faithful; and the firſt muſt go through the ſtate of <hi>Catechumens,</hi> then of <hi>competents,</hi> before they could be <hi>fideles.</hi> But touching <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> their lapſed, their diſcipline was very ſevere; They were to go through <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, four places of puniſh<g ref="char:EOLhyphen"/>ments, which they rarely underwent in leſs than <hi>twelve years.</hi> So true it is that the wiſdom which is from above is <hi>firſt pure, then peaceable.</hi> 
+               <note place="margin">
+                  <hi>James</hi> 3. 17.</note>
+            </p>
+            <p>The reſtauration of which Diſcipline <note place="margin">
+                  <hi>Res Deo grati<g ref="char:EOLhyphen"/>or abſque du<g ref="char:EOLhyphen"/>bio quam de fides dogmatis ſubtiliter diſ<g ref="char:EOLhyphen"/>putare extra ſcripturas; &amp; omnes diſſenti<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ntes ferro &amp; flamma proſe<g ref="char:EOLhyphen"/>qui; in quo hodie ſummus pietatis apex ponitur,</hi> Iſa. Caſaub.</note> in the Church would be <hi>doubtleſs</hi> more acceptable to <hi>God Almighty</hi> than our ex<g ref="char:EOLhyphen"/>traſcriptural, and ſubtle determinations of Articles of our Faith, and the pro<g ref="char:EOLhyphen"/>ſecution of all Diſſenters with <hi>fire</hi> and <hi>ſword;</hi> which at this day is the height of ſome mens Religion; faith the Great <hi>Caſaubon.</hi> Which yet St. <hi>Paul</hi> places nei<g ref="char:EOLhyphen"/>ther in <hi>circumciſion</hi> nor <hi>uncircumciſion, but in the new creature,</hi> i. e. <hi>in faith that works by love;</hi> or <hi>in the keeping of the</hi> 
+               <note place="margin">1 <hi>Cor.</hi> 7. 19. <hi>Gal.</hi> 5. 6. 6. 15. 1 <hi>Cor.</hi> 6. 9, 10.</note> 
+               <hi>commandments of God.</hi> And which will moſt evidently appear, if we conſider that the great <hi>end,</hi> and <hi>deſign</hi> of Reli<g ref="char:EOLhyphen"/>gion, is to entitle us unto, and in<g ref="char:EOLhyphen"/>veſt
+<pb n="15" facs="tcp:104500:9"/> us with a Life after Death, and a bleſſed Immortality.</p>
+            <p>Now let us conſider firſt what it is that ſecludes us from that State; Saint <hi>Paul</hi> will tell you it is unrighteouſneſs, <note place="margin">
+                  <hi>Galat.</hi> 5. 19.</note> 
+               <hi>Fornication, Idolatry, Adultery, Effemi<g ref="char:EOLhyphen"/>nacy, Sodomy, Theft, Covetouſneſs, drun<g ref="char:EOLhyphen"/>kenneſs, Reviling, Extortion, <g ref="char:V">Ʋ</g>nclean<g ref="char:EOLhyphen"/>neſs, Laſciviouſneſs, Witchraft, Hatred, Variance, emulation, Wrath, ſtrife, Se<g ref="char:EOLhyphen"/>dition, Hereſies, Envyings, Murthers, Revellings,</hi> and ſuch like; <hi>I have told you before, and I tell you again,</hi> ſaith the Apoſtle, <hi>That they that do ſuch things ſhall not inherit the Kingdom of God.</hi>
+            </p>
+            <p>What is it then that admits into that Kingdom? our Lord will anſwer that queſtion. <hi>How readeſt thou,</hi> ſaith he to <note place="margin">
+                  <hi>Luk<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> 10. 26.</note> the Lawyer, who had asked him <hi>what he muſt do to inherit Eternal life.</hi> Thus I read, <hi>Thou ſhalt love the Lord thy God with all thy heart</hi> &amp;c. (which is no o<g ref="char:EOLhyphen"/>therwiſe exemplified, than by keeping his Commands) and <hi>thy Neighbour as thy ſelf; this do and thou ſhalt live,</hi> ſaith Chriſt.</p>
+            <p>Herein alſo did the antient Church place the Eſſence of Chriſtian Reli<g ref="char:EOLhyphen"/>gion, whereof I will give you aſ<g ref="char:EOLhyphen"/>ſurance from Witneſſes <hi>Domeſtick</hi> and <hi>Forreign.</hi>
+            </p>
+            <pb n="16" facs="tcp:104500:10"/>
+            <p> J. Martyr; <hi>If you ſhall obſerve any</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. J. M. 2. Apolog.</note> 
+               <hi>to live not as our Lord hath taught,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Let all the World know they are no Chriſtians, al<g ref="char:EOLhyphen"/>though they make never ſuch Orthodox Confeſſions of their Faith.</hi> So <hi>Athena<g ref="char:EOLhyphen"/>goras; No Chriſtian is a wicked man, un<g ref="char:EOLhyphen"/>leſs</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Athen. leg.</note> 
+               <hi>he be ſuch an one as doth diſſemble his profeſſion.</hi> So <hi>Tertullian; You would have us renounce the name of Chriſtian; we are excluded if our lives be as the lives</hi> 
+               <note place="margin">Excludimur, ſi fa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i mus quae faciunt non Chriſtiani.</note> 
+               <hi>of ſuch as are not Chriſtians.</hi> And up<g ref="char:EOLhyphen"/>braiding to the Gentiles, that their Priſons, Mines, and Beaſts were daily cloyed with Malefactors, he tells them; <hi>There is not a Christian amongst them,</hi> 
+               <note place="margin">Nemo illic Chri<g ref="char:EOLhyphen"/>ſtianus, niſi planè tantùm Chriſtianus, aut ſi &amp; aliud, jam non Chriſtia<g ref="char:EOLhyphen"/>nus.</note> 
+               <hi>unleſs he be there for his Chriſtianity on<g ref="char:EOLhyphen"/>ly; for if he be upon any other account, he is no Chriſtian.</hi> And again; <hi>You will ſay even ſome of ours do ſwerve from the Rule of our Diſcipline, then they ceaſe to be accounted Chriſtians amongſt</hi> 
+               <note place="margin">
+                  <hi>Deſinunt tum Chriſtiani habe<g ref="char:EOLhyphen"/>ri apud nos.</hi> Apol. <hi>Haec non ad<g ref="char:EOLhyphen"/>mittet omnino qui natus à Deo fuerit, non futurus Dei fi<g ref="char:EOLhyphen"/>lius ſi admiſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>it. Deveſtro nume<g ref="char:EOLhyphen"/>ro carcer exae<g ref="char:EOLhyphen"/>ſtuat; Chriſtia<g ref="char:EOLhyphen"/>nus ibi nullus niſi aut reus ſua, &amp;c.</hi>
+               </note> 
+               <hi>us.</hi> And in another Treatiſe, having enumerated very many of the works of the Fleſh; he ſays, <hi>He that is born of God will by no means commit theſe things; for if he ſhould commit them, he would be no longer the ſon of God.</hi>
+            </p>
+            <p>So <hi>Minucius Felix; Your Priſons are crowded with your own number, but not a Chriſtian amongſt them,</hi> niſi aut reus
+<pb n="17" facs="tcp:104500:10"/> ſuae Religionis aut profugus, <hi>unleſs guil<g ref="char:EOLhyphen"/>ty only of his Religion, or a Runagado from it.</hi>
+            </p>
+            <p>So <hi>Lucian</hi> in his <hi>Peregrinus</hi> tells us, <hi>They worſhipped their crucified Sophiſt,</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Ep.</hi> 97.</note> 
+               <hi>and lived according to his Laws.</hi> So <hi>Pliny</hi> to <hi>Trajan</hi> tells us, ſpeaking of Chriſtians, <hi>They were wont to convene on a ſet day before it was light, and there</hi> 
+               <note place="margin">
+                  <hi>Carmen Chriſto quaſi Deo di<g ref="char:EOLhyphen"/>cere ſecum in<g ref="char:EOLhyphen"/>vicem. Ne furta, ne latrocinia, ne adulteria com<g ref="char:EOLhyphen"/>mitterent, ne fi<g ref="char:EOLhyphen"/>dem fallerent, ne depoſitum appellati abne<g ref="char:EOLhyphen"/>garent. Ad capiendum <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ibum premi<g ref="char:EOLhyphen"/>ſcuum, tamen &amp; innoxium.</hi> Mic. 6. 8. James 1. 27.</note> 
+               <hi>to ſing alternatly an Hymn to Chriſt, as if he were God, and to bind themſelves by oath to no wickedneſs; but that they would commit no Thefts, nor Robberies, nor Adulteries, nor break their faith, nor betray their truſt: which done, they were wont to depart, and to meet again to eat bread in common, but very innocently.</hi> Agreeably hereunto doth the Prophet <hi>Micah</hi> reduce Religion to <hi>Righteouſneſs, Mercy, and an humble Piety;</hi> and Saint <hi>James</hi> places true and genuine Religion in <hi>Beneficence and Purity of life.</hi> So that if Chriſtians will contend as ſuch, there remains to them only a laudable Am<g ref="char:EOLhyphen"/>bition to excel in <hi>Meekneſs</hi> and <hi>Humili<g ref="char:EOLhyphen"/>ty,</hi> in <hi>Mercy</hi> and <hi>Charity,</hi> in <hi>Purity</hi> and <hi>Peaceableneſs;</hi> and not in multiplying Articles of Faith, and then like fooliſh Builders, making all of them of the foundation, whereof St. <hi>Hilary</hi> doth gravely complain to <hi>Conſtantius, That</hi>
+               <pb n="18" facs="tcp:104500:11"/> 
+               <hi>after the Councel of</hi> Nice, <hi>Chriſtians did</hi> 
+               <note place="margin">Conſcii nobis invicem ſumus poſt Niceni Con<g ref="char:EOLhyphen"/>ventus Syno<g ref="char:EOLhyphen"/>dum, nihil ali<g ref="char:EOLhyphen"/>ud quam fidem ſcribi.</note> 
+               <hi>little elſe but write Creeds.</hi>
+            </p>
+            <p>Nor in determining fruitleſs and in<g ref="char:EOLhyphen"/>determinable Queſtions; which all Chriſtendom may truly ſay, is <hi>Fundus noſtrae Calamitatis, the Ground of all our Schiſms and Diviſions.</hi> Had the <hi>Tridentine</hi> Fathers had a right notion of Chriſti<g ref="char:EOLhyphen"/>anity, they would have ſpared their <hi>Anathemata,</hi> and <hi>Geneva</hi> their, <hi>Fires,</hi> and <hi>Dort</hi> their <hi>Wagons;</hi> had they conſider<g ref="char:EOLhyphen"/>ed that ſuch and <hi>only</hi> ſuch Articles are neceſſary, without the explicit know<g ref="char:EOLhyphen"/>ledge of which, we could not perform the conditions of the new Covenant. That is, Believe in God and Chriſt, and obſerve their Precepts, (this entitles us to the Promiſes.) They would ra<g ref="char:EOLhyphen"/>ther have ſpent their Zeal in preaching <note place="margin">The worthy Author of Cauſes of the decays of Chriſtian pie<g ref="char:EOLhyphen"/>ty hath one chapter of the miſchiefs ari<g ref="char:EOLhyphen"/>ſing from diſ<g ref="char:EOLhyphen"/>putes.</note> St. <hi>Paul</hi>'s Doctrine of Repentance from dead works, and the exerciſe of Cha<g ref="char:EOLhyphen"/>rity. For I would the <hi>Proud</hi> Diſputer, and the whole <hi>Polemick</hi> Rabble ſhould know, that neceſſary Articles are nei<g ref="char:EOLhyphen"/>ther <hi>many,</hi> nor <hi>obſcure.</hi>
+            </p>
+            <p>Not <hi>many.</hi> How <hi>ſuccinct</hi> was that <milestone type="tcpmilestone" unit="unspecified" n="1"/> 
+               <hi>Creed</hi> upon which our Lord built his Church. <hi>We believe and are ſure that</hi> 
+               <note place="margin">Matth. 16. 19.</note> 
+               <hi>thou art the Son of the living God;</hi> and this was <hi>Marthas</hi> Creed, and <hi>Sal<g ref="char:EOLhyphen"/>vation</hi> 
+               <note place="margin">John 11. 27.</note> was particularly promiſed to it.
+<pb n="19" facs="tcp:104500:11"/> This was the end of writing St. <hi>John</hi>'s Goſpel, that we might believe that Je<g ref="char:EOLhyphen"/>ſus <hi>is the Chriſt the Son of God, and that</hi> 
+               <note place="margin">John 20. 31.</note> 
+               <hi>believing we might have life through his name.</hi> That Jeſus Chriſt <hi>was the Son of</hi> 
+               <note place="margin">Acts 8. 37.</note> 
+               <hi>God,</hi> was the Eunuchs Creed. So St. <hi>Paul;</hi> 
+               <note place="margin">Rom. 10. 8, 9.</note> 
+               <hi>This is the word of Faith which we preach, that if thou ſhalt confeſs with thy mouth the Lord Jeſus, and ſhalt believe in thy heart that God hath raiſed him from the dead, thou ſhalt be ſaved.</hi> And this ſimplicity did the <hi>antient Church</hi> re<g ref="char:EOLhyphen"/>tain. <hi>Irenaeus,</hi> who when he had recit<g ref="char:EOLhyphen"/>ed that Creed, which then was not ſo long as now it is, adds, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Not the most eloquent of all the</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>deminorabit traditionem.</hi> Iren. <hi>l.</hi> 1. 23.</note> 
+               <hi>Prelats in the Church</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>be<g ref="char:EOLhyphen"/>lieves any more, and the moſt ſimple Ideot believes no leſs: the Faith being one and the ſame. They who have the greateſt plenty of words do not exceed it, and they who have the feweſt do not dimi<g ref="char:EOLhyphen"/>niſh it.</hi>
+            </p>
+            <p>So <hi>Tertullian</hi> tells us, the Rule of Faith is <hi>only one, ſtable and unalterable.</hi> 
+               <note place="margin">Regula fidei una omnino eſt ſola, immobilis, irreformabilis. Arbitratur Rex rerum ab<g ref="char:EOLhyphen"/>ſolute neceſſa<g ref="char:EOLhyphen"/>riarum ad ſa<g ref="char:EOLhyphen"/>lutem non ma<g ref="char:EOLhyphen"/>gnum eſſe nu<g ref="char:EOLhyphen"/>merum.</note> So that it is no wonder that excellent <hi>Prince,</hi> in his Anſwer to <hi>Perrone,</hi> thinks <hi>the number of things neceſſary to Salva<g ref="char:EOLhyphen"/>tion is not very great.</hi> And further, his <hi>Majeſty thought there was no more expedite way to Peace, than diligently to</hi>
+               <pb n="20" facs="tcp:104500:12"/> 
+               <hi>ſeperate Neceſſaries from Non-neceſſaries, and that we might all agree in Neceſſa<g ref="char:EOLhyphen"/>ries;</hi> in non neceſſariis Libertati Chri<g ref="char:EOLhyphen"/>ſtianae locus detur, <hi>in unneceſſary Ar<g ref="char:EOLhyphen"/>ticles let Chriſtian liberty take place.</hi> The <hi>King</hi> further ſays, <hi>That if we made uſe of this diſtinction for deciding of Con<g ref="char:EOLhyphen"/>troverſies</hi> 
+               <note place="margin">
+                  <hi>Videſis reſpon<g ref="char:EOLhyphen"/>ſionem ad E<g ref="char:EOLhyphen"/>piſt. Card.</hi> Per. Londini 1612</note> 
+               <hi>at this day, there would be nei<g ref="char:EOLhyphen"/>ther long nor fierce Contention amongſt Pious and Modeſt men,</hi> about Articles <hi>abſolutely neceſſary;</hi> Nam &amp; pauca illa ſunt, &amp; ferè ex aequo ab omnibus pro<g ref="char:EOLhyphen"/>bantur, <hi>i. e. That they are both few, and upon the matter receiv'd by all</hi> who would be accounted <hi>Chriſtians.</hi> Nay that <hi>learn<g ref="char:EOLhyphen"/>ed</hi> and <hi>pacifick King</hi> doth ſo much va<g ref="char:EOLhyphen"/>lue this diſtinction, for the leſſening of Controverſies, which excerciſe Gods Church, that he judges it <hi>the Duty</hi> of all that are <hi>ſtudious of Peace,</hi> diligen<g ref="char:EOLhyphen"/>tiſſimè hanc explicare, urgere, docere, <hi>moſt diligently to explicate, urge, and teach it.</hi>
+            </p>
+            <p>And this is but the breathing of that Spirit which influenced the <hi>first</hi> and <hi>beſt</hi> Ages of the Church. How elſe ſhall we underſtand <hi>Juſtin Martyr,</hi> who anſwering that objection of <hi>Try<g ref="char:EOLhyphen"/>pho, That Christ ſhould be God before the</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>World was, and be made man and be born, and yet not be born according to</hi>
+               <pb n="21" facs="tcp:104500:12"/> 
+               <hi>the manner of men;</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>i. e.</hi> (ſaith <hi>Trypho) it ſeems to me not only incredible, but alſo fooliſh.</hi> The <hi>holy man</hi> anſwers, <hi>If I cannot de<g ref="char:EOLhyphen"/>monſtrate that he did pre-exiſt, the Son of him that made the <g ref="char:V">Ʋ</g>niverſe, and was a Man born of a Virgin; herein only 'twas ſit to ſay I was miſtaken; but not to de<g ref="char:EOLhyphen"/>ny that he was the Christ, if it ſhould</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Videſis</hi> Juſt. Mart. <hi>p.</hi> 63. <hi>E<g ref="char:EOLhyphen"/>dit.</hi> R. Steph. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Cyril <hi>p.</hi> 101. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>appear that he was a Man born according to the manner of men, and be demonſtra<g ref="char:EOLhyphen"/>ted that he was made the Chriſt by E<g ref="char:EOLhyphen"/>lection: For there are ſome friends,</hi> quoth he, <hi>of our Profeſſion, who do confeſs him to be the Chriſt, yet do affirm him to be a man born according to the manner of men.</hi>
+            </p>
+            <p>So <hi>Cyril</hi> of <hi>Hieruſalem. That God hath a Son, that you are to believe; but be not ſo curious as to enquire into the</hi> Modus <hi>of that Filiation; for if you ſeek it you ſhall not find it. Do not flie too high, leſt you fall, but attend to thoſe things alone which he hath commanded you.</hi> And a little after he tells <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> &amp;c. <hi>It is ſufficient to aſſiſt thy Piety to know that God has but one Son.</hi>
+            </p>
+            <p>So <hi>Gregory Nazianzen,</hi> ſpeaking of the holy Spirit, tells you. <hi>There are that do depreſs him into the degree of a Crea<g ref="char:EOLhyphen"/>ture</hi>
+               <pb n="22" facs="tcp:104500:13"/> 
+               <hi>&amp; they he ſays, are injurious, and bad,</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Nazi<g ref="char:EOLhyphen"/>anz. Orat. 44. pag. 709.</note> 
+               <hi>and the worſt of ſervants; There are that think him God, and they are Divine Spi<g ref="char:EOLhyphen"/>rits, and of clear, and bright underſtand<g ref="char:EOLhyphen"/>ings. There are that name him ſo, if it be in preſence of men of good judgement. They are noble ſouls; but if in preſence of weak Christians, they are not wiſe diſpen<g ref="char:EOLhyphen"/>cers of the word: 'Tis all one as to caſt a pearl into the dirt to object the voice of</hi> 
+               <note place="margin">So the Greeks if they belie<g ref="char:EOLhyphen"/>ved the pro<g ref="char:EOLhyphen"/>ceſſion of the holy Ghoſt from the Son, yet did not condemn thoſe of Hereſie, who did not. See the Judicious and Learned Doctor <hi>Stilling.</hi> in his <hi>Rational Account,</hi> pag. 10, 11, 12, 13.</note> 
+               <hi>Thunder or the brightneſs of the Sun to</hi> a weak <hi>ear, or eye, to give ſolid meat to him</hi> that needs and <hi>uſes milk.</hi>
+            </p>
+            <p>And to theſe excellent men I ſhall ſubjoyn a worthy <hi>Prelate</hi> of our own <note place="margin">See relation of a confe<g ref="char:EOLhyphen"/>rence, p. 25.</note> Church, who conſidering the proceed<g ref="char:EOLhyphen"/>ings of <hi>Rome,</hi> in the Article <hi>Filioque</hi> concludes, 'tis hard to <hi>add</hi> and to <hi>ana<g ref="char:EOLhyphen"/>thematiſe</hi> too. All which paſſages can<g ref="char:EOLhyphen"/>not <note place="margin">For the <hi>mo<g ref="char:EOLhyphen"/>dus</hi> of that Proceſſion. See <hi>Cyril</hi> late Patriarch of <hi>Alexandria</hi> to the Pious and Learned <hi>
+                     <g ref="char:V">Ʋ</g>tenbogard.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Epipham. <hi>Ego me refero ad illas ſcripturae voces, quae jubent invocare Chriſtum, quod eſt ei honorem divinitatis tribuere, &amp; plenum con<g ref="char:EOLhyphen"/>ſolationis eſt,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Melancthon, Ep. 140. p. 708.</note> be underſtood without that <hi>Royal</hi> diſtinction of neceſſary Articles and non-neceſſary. And ſo we ſee what ſtreſs holy and good men laid upon <hi>the niceties of the Chriſtian Faith.</hi>
+            </p>
+            <pb n="33" facs="tcp:104500:13"/>
+            <p> Yet all this notwithſtanding the <hi>boute<g ref="char:EOLhyphen"/>feues</hi> and incendiaries of Chriſtendome, ſuppoſe, nor Creed, nor Scripture ſuffici<g ref="char:EOLhyphen"/>ent to make up an Orthodox Chriſtians Confeſſion of Faith. To all ſuch ſuper<g ref="char:EOLhyphen"/>fine wits, I ſhall oppoſe <hi>Tertullian; What is</hi> Athens <hi>to</hi> Jeruſalem, <hi>or the Aca<g ref="char:EOLhyphen"/>demy</hi> 
+               <note place="margin">
+                  <hi>Quid ergo A<g ref="char:EOLhyphen"/>thenis &amp; Hie<g ref="char:EOLhyphen"/>roſolumis, quid Academiae &amp; Eccleſiae, quid haereticis &amp; Chriſtianis. Viderint qui Stoicum &amp; Platonicum &amp; dialecticum Chriſtianiſ<g ref="char:EOLhyphen"/>mum protule<g ref="char:EOLhyphen"/>runt.</hi> De Prae<g ref="char:EOLhyphen"/>ſcript. C. 7, 8. <hi>Nobis curoſita<g ref="char:EOLhyphen"/>te non <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt opus poſt Chriſtum Jeſum, nec inquiſitione poſt evangelium. Cum credimus nihil deſideramus ultra credere. Hoc enim prius credimus, non eſſe ultra quod cre<g ref="char:EOLhyphen"/>dere debeamus.</hi>
+               </note> 
+               <hi>to the Church, or Hereticks to Chri<g ref="char:EOLhyphen"/>ſtians. Let them ſee to it who have in<g ref="char:EOLhyphen"/>troduced a Stoical, Platonick, or a ſubtle Christianity.</hi> What needs any <hi>curioſity after and beyond Chriſt Jeſus,</hi> or farther <hi>diſquiſition after we have receiv'd the Go<g ref="char:EOLhyphen"/>ſpel.</hi> So ſoon <hi>as we believe we deſire no<g ref="char:EOLhyphen"/>thing farther than to believe: for this we firſt of all believe, that there is nothing fur<g ref="char:EOLhyphen"/>ther that we ought to believe.</hi>
+            </p>
+            <p>In vain I ſay did he adore the <hi>fulneſs</hi> of the <hi>Scripture,</hi> and provoke the <hi>ſhop</hi> 
+               <note place="margin">
+                  <hi>Adoro Scri<g ref="char:EOLhyphen"/>pturae plenitu<g ref="char:EOLhyphen"/>dinem. Adverſ.</hi> Herm. c. 22.</note> of <hi>Hermogenes</hi> to ſhew where the <hi>matter in controverſie was written, if not to bid him fear, that woe which is denounced a<g ref="char:EOLhyphen"/>gainſt all ſuch as add to, or detract from the Sacred Scriptures.</hi> In vain did <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Euſeb<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us l. 5. c. 16.</note> 
+               <hi>Apollinaris</hi> fear to write againſt the He<g ref="char:EOLhyphen"/>reſie of <hi>Miltiades, leſt he ſhould ſeem to ſome men to make additions to the Do<g ref="char:EOLhyphen"/>ctrine</hi>
+               <pb n="24" facs="tcp:104500:14"/> 
+               <hi>of the New Teſtament. To or from which he may neither add nor ſubſtract who would inſtitute his life according to the precepts of the Goſpel.</hi> They who think they can ſpeak more properly than the Wiſdom of God has ſpoken, let them re<g ref="char:EOLhyphen"/>concile themſelves to <hi>Athanaſius,</hi> who avers <hi>the Sacred and Divinely inſpir'd</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Orat. cont. gentes.</note> 
+               <hi>Scriptures are abundantly ſufficient for the declaration of the truth:</hi> and to Saint <hi>Baſil</hi> who makes it <hi>without all doubt a</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>a manifest falling from the Faith and a most certain proof of pride</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>either to reject any thing</hi> 
+               <note place="margin">De vera fide, p. 251. J, 10.</note> 
+               <hi>that is written, nor to introduce any thing that is not written;</hi> Our Lord having ſaid <hi>my ſheep will hear my voice, and a ſtranger will they not follow, but will flee from him; for they know the voyce of ſtrangers.</hi> And again, enquiring of what mind the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ought to be, he ſaith he would have them <hi>always to fear leſt he ſhould affirm or determine any thing be<g ref="char:EOLhyphen"/>ſides the Will of God</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <note place="margin">Regul<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> bre<g ref="char:EOLhyphen"/>vior. 98.</note> 
+               <hi>without controverſie laid down in the Sacred Scriptures, leſt he be found a falſe witneſs of God.</hi> And again he tells us 'tis the property of a faithful miniſter to <hi>preſerve intire and without the adul<g ref="char:EOLhyphen"/>terate mixtures of any other Doctrines,</hi>
+               <pb n="25" facs="tcp:104500:14"/> 
+               <hi>that which was concredited to him by his</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>de Ver. fid. p.</hi> 249.</note> 
+               <hi>merciful Lord to be communicated to his fellow ſervants,</hi> and he aſſigns irrefra<g ref="char:EOLhyphen"/>gable reaſon; becauſe neither <hi>our Lord, nor the Spirit of God ſpake from them<g ref="char:EOLhyphen"/>ſelves:</hi> Nay a little after he tells us, he would <hi>ſpare to uſe ſuch terms and</hi> 
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>de ver. fid. p.</hi> 25.</note> 
+               <hi>words, which in ſo many ſyllables are not found in the divine Scriptures, though they did retain the ſame ſence;</hi> and aſ<g ref="char:EOLhyphen"/>ſigns this reaſon for it; <hi>ſuch kind of terms and words, beſides their novelty,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>are apt to innovate the ſence of things, and were never found uſed by holy men heretofore; Theſe I have by all means declined,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>as ſtrange and forreign to the holy Faith.</hi> Nothing can be more concluding, unleſs I ſhould end this obſervation with that voice out of the Cloud, which ſaid, <hi>This is my beloved Son in whom I am well</hi> 
+               <note place="margin">Mat. 17. 5.</note> 
+               <hi>pleaſed, Hear ye him.</hi>
+            </p>
+            <p>
+               <hi>Nor Obſcure.</hi> Though ſome men think <milestone type="tcpmilestone" unit="unspecified" n="2"/> nothing makes a Solemnity but <hi>Shades,</hi> 
+               <note place="margin">
+                  <hi>Cette parole contient nette<g ref="char:EOLhyphen"/>ment &amp; claire<g ref="char:EOLhyphen"/>ment, tout ce qui eſt neceſ<g ref="char:EOLhyphen"/>ſaire pour for<g ref="char:EOLhyphen"/>mer la Foy &amp; pour regler le Culte, les Moeurs,</hi> ſaith the learned <hi>Claude</hi> in his Anſwer to <hi>Arnaud. lib.</hi> 1. <hi>c.</hi> 4. ſpeaking of God's Word. Nay he further adds theſe excellent words; <hi>Il eſt aiſe meſme aux plus ſimples, de juger ſi le Miniſtere ſous le quel nous vivons peut conduire au ſalut, &amp; per conſéquent ſi noſtre Societe eſt la veritable Egliſe.</hi>
+               </note> and therefore introduce their divine no<g ref="char:EOLhyphen"/>tions like <hi>Homer</hi>'s <hi>Deities,</hi> always cloath<g ref="char:EOLhyphen"/>ed with <hi>Cloud.</hi> They repreſent our
+<pb n="26" facs="tcp:104500:15"/> Lord as another <hi>Sphynx,</hi> that they might be reputed the only <hi>Oedipus's</hi> in the World; but can we think that <hi>he,</hi> who was diſcloſed from the boſom of that God, who dwells in inacceſſible <hi>light; he</hi> whoſe name is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> the Eaſt or the <hi>Morning; he</hi> who is the Sun of Righteouſneſs, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> the <hi>true and genuine Light,</hi> who was cloath'd with <hi>Light</hi> upon Mount <hi>Tabor,</hi> and in that Garment appeared unto the per<g ref="char:EOLhyphen"/>ſecuting <hi>Saul; he</hi> who brought Life and Immortality to <hi>light,</hi> and whoſe Diſciples are the <hi>light</hi> of the World; that he diſcourſes <hi>Aenigmata, Myſteries</hi> and Darkneſs. We find him in his fa<g ref="char:EOLhyphen"/>mous Sermon upon a Mountain indeed, but below the Clouds. Can we think it that that God who appeared in a pil<g ref="char:EOLhyphen"/>lar of <hi>Fire</hi> under the Oeconomy of <hi>Mo<g ref="char:EOLhyphen"/>ſes,</hi> appears only in a pillar of <hi>Cloud</hi> under the diſpenſation of Chriſt? Is there no light in the Sun that fountain of Light, becauſe the blind man doth not ſee it? No, no, to the <hi>Law</hi> and <hi>to the Teſtimony, if they ſpeak not according</hi> 
+               <note place="margin">Eſay 8. 20.</note> 
+               <hi>to this word, it is becauſe there is no light in them.</hi> Tell me not there are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <note place="margin">2. Pet. 3. 16. <hi>Homil.</hi> 3. <hi>in</hi> 2. <hi>Theſſ.</hi>
+               </note> 
+               <hi>ſome things hard to be underſtood.</hi> St. <hi>Chryſoſtom</hi> ſolves that, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>all neceſſaries are clear and mani<g ref="char:EOLhyphen"/>feſt.</hi>
+               <pb n="27" facs="tcp:104500:15"/> So <hi>Hilary; Almighty God doth not</hi> 
+               <note place="margin">
+                  <hi>Non per diffici<g ref="char:EOLhyphen"/>les nos Deus ad beatam vitam quaeſtiones vo<g ref="char:EOLhyphen"/>cat, nec multi<g ref="char:EOLhyphen"/>plici eloquentis facundiae gene<g ref="char:EOLhyphen"/>re ſolicitat. In abſoluto no<g ref="char:EOLhyphen"/>bis ac facili eſt aeternitas. Jeſum ſuſcita<g ref="char:EOLhyphen"/>tum à mortuis per Deum cre<g ref="char:EOLhyphen"/>dere; &amp; ipſum eſſe dominum confit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ri. De Trinitat. lib.</hi> 10. <hi>p.</hi> 231. Am. Marcel. 21 <hi>Religionem Chriſtianam ab<g ref="char:EOLhyphen"/>ſolutam &amp; ſim<g ref="char:EOLhyphen"/>plicem anili ſuperſtitione confund<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ns.</hi> 1 Tim. 6. 3. Tit. 1. 1. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>ſignificat id quo tenditur</hi> Grotius <hi>in loc. In id enim da<g ref="char:EOLhyphen"/>tur &amp; fides &amp; cognitio ut piè vivatur.</hi>
+               </note> 
+               <hi>invite us to a bleſſed Immortality by hard queſtions, nor doth he ſollicit us with any great variety of a copious Eloquence; but propounds Eternity to us upon plain and intelligible terms, when this is all,</hi> even to <hi>believe that Jeſus was raiſed from the dead by God, and to confeſs him to be the Lord.</hi> And a heathen <hi>Hiſtorian</hi> doth com<g ref="char:EOLhyphen"/>plain of <hi>Conſtantius, That he did perplex the Chriſtian Religion, a Religion plain and intelligible enough, with ſuperſtition and dotage.</hi>
+            </p>
+            <p>For in the firſt and beſt Ages of the Church, Religion did not conſiſt of <hi>Syſtems</hi> of abſtruſe and difficult Specula<g ref="char:EOLhyphen"/>tions, nor dry and barren <hi>Opinions;</hi> but there was a ſpecial care had that their Theological notions were <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>ſuch as tended to a vertuous and pious life,</hi> and did not directly contra<g ref="char:EOLhyphen"/>dict the conditions of that Covenant by which we claim eternal happineſs; ſuch as are the <hi>fatal</hi> pre-determinations of mens <hi>eternal</hi> ſtates, and the <hi>ſervitude</hi> of humane minds; which pair of <hi>Dogmata,</hi> like <hi>Hippocrates</hi> his Twins, laugh and cry, live and die together. If there be any that are vertuous and conſequent<g ref="char:EOLhyphen"/>ly happy <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, naturally and fatally ſuch. Such an one I would
+<pb n="28" facs="tcp:104500:16"/> eſteem an <hi>Hero</hi> ſprung <hi>ex ſtirpe Deo<g ref="char:EOLhyphen"/>rum;</hi>
+            </p>
+            <q>
+               <l>—<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </q>
+            <p>You'd think him not born of Mortal parents, but to be of divine extraction. But that a <hi>Good</hi> and <hi>Righteous</hi> God hath decreed from all Eternity, to bring into being innumerable <hi>myriads</hi> of Souls, who let them do what they will and can, are irreverſibly determined to un<g ref="char:EOLhyphen"/>ſpeakable <hi>torments;</hi> ſo great and ſo ex<g ref="char:EOLhyphen"/>ceeding, that all the racks and tortures the witty cruelties of enraged Tyrants could ever invent or execute, would be eaſe and pleaſure in compariſon of them, and that theſe pangs ſhould re<g ref="char:EOLhyphen"/>main freſh upon them for ever and for ever; this ſaith a <hi>learned</hi> and <hi>pious</hi> per<g ref="char:EOLhyphen"/>ſon <note place="margin">
+                  <hi>Videſis</hi> Myſt. of Godl. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. c. 2.</note> is the repreſentation of that ſowr <hi>Dogma,</hi> which he juſtly accuſes of being contradictious to <hi>Reaſon,</hi> and <hi>blaſphe<g ref="char:EOLhyphen"/>mous</hi> of God; and after tells you a great truth, That the ſerious and im<g ref="char:EOLhyphen"/>perious obtruſion of ſuch a diſmal con<g ref="char:EOLhyphen"/>ceit as this, for one of the greateſt <hi>Ar<g ref="char:EOLhyphen"/>canums</hi> of <hi>Religion,</hi> is enough to make the free ſpirit, and over inclinable to prophaneneſs, to queſtion the whole
+<pb n="29" facs="tcp:104500:16"/> frame of it. And that this ſhould be done by men who pretend they would advance <hi>vertue, piety</hi> and <hi>prob<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>y</hi> in the World, is a great argument that they <note place="margin">So <hi>Suetonius</hi> tells us of <hi>Ne<g ref="char:EOLhyphen"/>ro</hi> he was <hi>Re<g ref="char:EOLhyphen"/>ligionum ne<g ref="char:EOLhyphen"/>gligentior, quia perſuaſionis plenus cuncta fato agi. Ac vide ſeculi furores, Certa<g ref="char:EOLhyphen"/>mina Allabro<g ref="char:EOLhyphen"/>gica de ſtoica neceſſitate tan<g ref="char:EOLhyphen"/>ta ſunt, ut car<g ref="char:EOLhyphen"/>ceri incluſus ſit quidam qui à</hi> Zenone <hi>diſ<g ref="char:EOLhyphen"/>ſentit,</hi> ſaith <hi>Melancthon</hi> to <hi>Joach. Came<g ref="char:EOLhyphen"/>rarius. Ep.</hi> 796 <hi>p.</hi> 923. The ſame <hi>Me<g ref="char:EOLhyphen"/>lancthon</hi> to <hi>Gaſpar Peucer</hi> relating the ſame paſſage, cries out, <hi>O rem miſeram! doctrina ſalu<g ref="char:EOLhyphen"/>taris obſcura<g ref="char:EOLhyphen"/>tur peregrinis diſputationib us</hi>
+               </note> underſtand not the conſequence of their own <hi>Dogmata</hi> ſo well as the Tragedian did.</p>
+            <q>
+               <l>Solvite mortales animos, curiſque levate,</l>
+               <l>Tot<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſupervacuis animu<g ref="char:cmbAbbrStroke">̄</g> deplete querelis;</l>
+               <l>Fata regunt orbem, certâ ſtant omnia lege.</l>
+            </q>
+            <p>
+               <hi>Caſt away your cares, and forbear your fruitleſs complaining, for Fate governs the World, and nothing can fall out other<g ref="char:EOLhyphen"/>wiſe than it does.</hi>
+            </p>
+            <p>And to introduce the <hi>Servitude</hi> of humane minds, doth neceſſarily ſub<g ref="char:EOLhyphen"/>vert all Law, Diſcipline, and Religion, the <hi>ſum</hi> whereof is contained in the <hi>Pre<g ref="char:EOLhyphen"/>cepts</hi> of Obedience, the <hi>Promiſes</hi> of Re<g ref="char:EOLhyphen"/>wards, and the <hi>Threatnings</hi> of Puniſh<g ref="char:EOLhyphen"/>ments; but he that acts from an inevi<g ref="char:EOLhyphen"/>table neceſſity, is uncapable of a com<g ref="char:EOLhyphen"/>mandement; that which could not be otherwiſe neither merits the <hi>praiſe</hi> of obedience, nor the <hi>reproach</hi> of diſobe<g ref="char:EOLhyphen"/>dience. We praiſe not the <hi>Sun</hi> that he riſes upon us, and ſpreads his comfort<g ref="char:EOLhyphen"/>able beams in our <hi>hemiſphere;</hi> nor the <hi>Clouds</hi> that they drop fatneſs. We know
+<pb n="30" facs="tcp:104500:17"/> they can do no otherwiſe; 'Tis ſo with Man under theſe Adamantine bonds of Fate: <hi>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ud eſt nocens quicunque non ſponte eſt nocens.</hi>
+            </p>
+            <p>And now could I account for the <hi>De<g ref="char:EOLhyphen"/>generacy</hi> of Chriſtendom from any other cauſe, I would have conſidered no other <hi>Opinions.</hi> When I look into the <hi>Roman</hi> Communion; the multitude of their <hi>Indulgences,</hi> and Pardons, their ſlight and ſuperficial <hi>Penances,</hi> their eaſie <hi>Pro<g ref="char:EOLhyphen"/>miſes</hi> of ſecurity to careleſs ſinners, muſt needs be acceptable to ſuch a kind of people as have a mind to enjoy this World as well as that to come, and ſo that part of the wonder ceaſes: But,</p>
+            <q>Iliacos intra muros peccatur &amp; extra.</q>
+            <p>The <hi>Reformation</hi> is faulty too; which makes me think ſome bad doctrines do too much influence their lives. Such as <note place="margin">
+                  <hi>De Juſtitia Chriſti imputa<g ref="char:EOLhyphen"/>ta nobis, quaſi eam omnem praeſtitiſſemus, &amp; dc fide, quae illam juſtitiam ſic imputatam amplecti debe<g ref="char:EOLhyphen"/>at, nullum eſt verbum in ſa<g ref="char:EOLhyphen"/>cris literis.</hi> Grotii <hi>Votum ad Articulum</hi> IV.</note> an <hi>imaginary Righteouſneſs,</hi> an <hi>empty Faith,</hi> no <hi>neceſſity,</hi> no <hi>poſſibility</hi> of keeping the Commandments of Chriſt. What ſhould they do with a righteouſneſs of their own, who do expect to be made as <hi>per<g ref="char:EOLhyphen"/>fectly</hi> righteous as the <hi>holy Jeſus</hi> the <hi>Son of God,</hi> by the imputation of a righte<g ref="char:EOLhyphen"/>ouſneſs <hi>not</hi> their own? Why ſhould they not ſet up their reſt in a Faith
+<pb n="31" facs="tcp:104500:17"/> preſcinded from Charity, who vapour to the World, <hi>Quam dives ſit homo Chri<g ref="char:EOLhyphen"/>ſtianus ſive baptizatus, qui etiam volens non poteſt perdere ſuam ſalutem, quantiſ<g ref="char:EOLhyphen"/>cunque peccatis, niſi nolit credere.</hi> And what neceſſity, what poſſibility of keep<g ref="char:EOLhyphen"/>ing the Commands of Chriſt, when St. <hi>Paul</hi> is <hi>carnal, ſold under ſin,</hi> does <hi>not</hi> the <hi>good</hi> he would, and does <hi>the evil</hi> he would not.</p>
+            <p>And ſo according to theſe mens Di<g ref="char:EOLhyphen"/>vinity, the meaſure of St. <hi>Paul</hi>'s Vertue and Obedience, and of every <hi>Regenerate</hi> man ſhall be the ſame with the <hi>Pagan</hi>'s in <hi>Lactantius, Medeas</hi> in <hi>Euripides,</hi> and <hi>Lesbonicus</hi>'s in <hi>Plautus.</hi> 
+               <note place="margin">
+                  <hi>Volo equidem non peccare, ſed vincor; indu<g ref="char:EOLhyphen"/>tus ſum enim carne fragili &amp; imbecilla: haec eſt quae concupiſcit, quae iraſcitur, quae dolet, quae mori timet; itaque ducor invitus, &amp; pecco, non quia volo, ſed quia Cogor; ſentio me &amp; ipſe peccare, ſed neceſſitas fra<g ref="char:EOLhyphen"/>gilitatis impel<g ref="char:EOLhyphen"/>lit, cut repugna<g ref="char:EOLhyphen"/>re non poſſum</hi> l. 4. c. 24.</note>
+            </p>
+            <p>The <hi>Pagan, Volo equidem non peccare, ſed vincor, &amp;c. In good truth, I would not ſin but I am overcome, I am cloath'd with frail and weak fleſh, 'tis that which luſts, grievs, and fears to die;</hi> therefore <hi>I am led unwillingly, and I do ſin, not that I would, but I am compelled. I do per<g ref="char:EOLhyphen"/>ceive I do ſin; but that frailty whereto I cannot reſiſt doth neceſſarily enforce me to it.</hi>
+            </p>
+            <p>So <hi>Medea;</hi>
+            </p>
+            <q>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </q>
+            <q>
+               <pb n="32" facs="tcp:104500:18"/>
+               <l>I very well underſtand the horrid Crimes</l>
+               <l>I am about to accompliſh; but my paſſion is too hard for my reaſon.</l>
+            </q>
+            <p>So <hi>Lesbonicus;</hi>
+            </p>
+            <q>
+               <l>Scibam ut eſſe me deceret; facere non quibam miſer.</l>
+               <l>Ita vi Veneris vinctus miſer, otio ca<g ref="char:EOLhyphen"/>ptus in fraudem incidi.</l>
+            </q>
+            <p>
+               <hi>I know what becomes me, but wretch that I am, I cannot do it; I am ſo taken with luſt and idleneſs, it is that deceives me.</hi>
+            </p>
+            <p>But to this place I ſay no more, but only obſerve that memorable accident which befel the famous <hi>Nicolas Zitini<g ref="char:EOLhyphen"/>us,</hi> who was put up by a Synod of the Reformed to explicate that <hi>Paragraph</hi> of St. <hi>Paul,</hi> agreably to the modern ſence of our <hi>Genevenſian</hi> Maſters; and he did, ſaith a noble Author, <hi>eo Concilio rem ſtrenuè aggredi, briskly undertake the deſign:</hi> but at length coming to thoſe words, <hi>I thank God through our Lord Jeſus Chriſt,</hi> haeſit attonito ſimilis, <hi>was aſtoniſhed.</hi> But after he had recollected himſelf, he broke out into theſe words: <hi>Ecqua vero eſt iſta liberatio? What deli<g ref="char:EOLhyphen"/>verance</hi> 
+               <note place="margin">Ecquod benefi<g ref="char:EOLhyphen"/>cium illud quod tantas Apoſtolo grates expreſſit? an quod in tanta eum peccati ſer<g ref="char:EOLhyphen"/>vitute detineri neceſſe fuit? hoc vero mihi equidem probari nullo pacto poteſt. Ego igitur, inquit, pariter ingentes patri luminum ago gratias, quod mihi nunc ab errore liberato veritatis ſuae lucem adoriri voluit.</note>
+               <pb n="33" facs="tcp:104500:18"/> 
+               <hi>is that? What benefit is that which drew ſo great thankfulneſs from him? was it that he was neceſſarily detain<g ref="char:EOLhyphen"/>ed under ſo great bondage unto ſin? I can by no means think ſo; therefore,</hi> quoth he, <hi>I give all poſſible thanks to the Father of Lights, who hath now cauſed the light of truth to ariſe upon and deliver me from my error.</hi>
+            </p>
+            <p>But whilſt <hi>Zealots</hi> and high pretenders to Religion, do againſt the ſence of <hi>firſt</hi> and beſt Ages of the Church, depre<g ref="char:EOLhyphen"/>tiate and vilifie moral honeſty, and obtrude ſuch falſhoods as are pure con<g ref="char:EOLhyphen"/>tradictions and impoſſibilities, and that <note place="margin">
+                  <hi>Qui innocenti<g ref="char:EOLhyphen"/>am colit, Domi<g ref="char:EOLhyphen"/>no ſupplicat; qui juſtitiam, Deo libat; qui fraudibus ab<g ref="char:EOLhyphen"/>ſtinet, propitiat Deum; qui ho<g ref="char:EOLhyphen"/>minem periculo ſurripit, opti<g ref="char:EOLhyphen"/>mam victimam caedit. Haec no<g ref="char:EOLhyphen"/>ſtra ſacrificia, haec Dei ſacra ſunt. Sic apud nos religioſior eſt ille qui juſtior.</hi> Min. Fel.</note> with the ſame gravity, authority, and importunity as they do the holy Oracles of God, it will ſtartle prudent and conſcientious men; but gratifie the pro<g ref="char:EOLhyphen"/>phane and atheiſtical Spirit, who will<g ref="char:EOLhyphen"/>ingly takes this advantage againſt the whole frame of Religion, as if there were no truth in it.</p>
+            <p>But in vain do I object <hi>unreaſonable<g ref="char:EOLhyphen"/>neſs</hi> to theſe men, who diſclaim the uſe of their moſt noble Faculty in their affairs of greateſt importance; and that they may be always like themſelves, <hi>they think they have reaſon ſo to do.</hi> As <note place="margin">Myſt Godl. <hi>p.</hi> 495.</note> if they had never read, <hi>Try all things;</hi>
+               <pb n="34" facs="tcp:104500:19"/> 
+               <hi>hold faſt that which is good; believe not every ſpirit, but try the ſpirits whether they be of God or no; be ready to render a reaſon of the hope that is in you.</hi> Thus St. <hi>Paul. If the blind lead the blind they both fall into the ditch: Why of your ſelves do you not judg that which is right,</hi> ſaith our Lord? All which ſpeeches, if they do not adviſe men to make uſe of their <hi>Reaſon</hi> in the choice of their <hi>Religion,</hi> ſaith an Excellent perſon <hi>(dul<g ref="char:EOLhyphen"/>ce</hi> 
+               <note place="margin">Mr. <hi>Chilling<g ref="char:EOLhyphen"/>worth. p.</hi> 97.</note> 
+               <hi>Decus &amp; Praeſidium noſtrum,</hi> the ſtrength and ornament of our Church) <hi>I muſt confeſs my ſelf to understand no<g ref="char:EOLhyphen"/>thing.</hi> It was indeed the ſaying of <hi>A<g ref="char:EOLhyphen"/>pelles</hi> in <hi>Euſebius</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <note place="margin">
+                  <hi>Euſeb. l.</hi> 5. 19.</note> 
+               <hi>we muſt by no means examin the Faith.</hi> But <hi>Ludovicus Vives</hi> tells <hi>Alfaquinus</hi> a <note place="margin">
+                  <hi>L. Viv. de Ver. fid lib.</hi> 6. 1. <hi>p.</hi> 546. Lugd. Bat. 1639.</note> great truth. <hi>Tutiſſimum mentiendi ge<g ref="char:EOLhyphen"/>nus eſt nolle rationem eorum quae dicas reddere: It is the ſafeſt way of lying, to refuſe a reaſon of what you do affirm, and to intitle God to your dreams.</hi> And the great <hi>Hugo Grotius</hi> ſaith, <hi>Meritò ſuſpecta</hi> 
+               <note place="margin">
+                  <hi>Lib.</hi> 6. <hi>de verit.</hi>
+               </note> 
+               <hi>merx eſt, quae hac lege obtruditur ne inſpici poſſit; you may juſtly ſuſpect ſuch wares as are ſold unto you upon condition you may not look upon them.</hi> And a famous <hi>Prelat</hi> of our own Church, would have <note place="margin">Bp. <hi>Laud Rel. p.</hi> 76.</note> no man think the <hi>Myſteries of Faith</hi> contradict <hi>reaſon,</hi> or the principles
+<pb n="35" facs="tcp:104500:19"/> thereof. And a <hi>worthy perſon</hi> now liv<g ref="char:EOLhyphen"/>ing, hath plainly told the World that <hi>That Religion is certainly falſe at the bottom, that will not ſuffer it ſelf to be enquired into by Reaſon.</hi>
+            </p>
+            <p>And this was alſo the ſence of other men, who are in reputation for wiſ<g ref="char:EOLhyphen"/>dom. <hi>Melchior Canus; Faith is not re<g ref="char:EOLhyphen"/>pugnant</hi> 
+               <note place="margin">
+                  <hi>Fides ſane eum natura non pugnat, ſed conſentit; nec diſſident huma<g ref="char:EOLhyphen"/>na &amp; divina ratio, ſed cohae<g ref="char:EOLhyphen"/>rent. <g ref="char:V">Ʋ</g>traque verum eſt, nec verum vero ad<g ref="char:EOLhyphen"/>verſatur. <g ref="char:V">Ʋ</g>
+                     <g ref="char:EOLhyphen"/>traque eſt à Deo, nec ſibi contrarius eſt Deus.</hi> Melc. Can. <hi>C. C. fol.</hi> 358, 359. Col. Agrip. 15<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4.</note> 
+               <hi>unto Nature but agreeable unto it, nor doth humane and divine reaſon diſſent but accord. Each is true, and one truth is not oppoſite to another; each of them is from God, and God is not contrary to himſelf.</hi> And further he tells us; <hi>It is the cuſtom of unlearned men, ſuch as are Saracens, Pagans, Hereticks,</hi> ut coeca &amp; temeraria Sectae ſuae Dogmata ſine ju<g ref="char:EOLhyphen"/>dicio amplectantur, &amp; quae diſquiſitio<g ref="char:EOLhyphen"/>ne egent maximè, ſine ulla diſquiſitio<g ref="char:EOLhyphen"/>ne recipiant; <hi>that they ſwallow down without any judgment every fooliſh and temerarious</hi> Dogma <hi>of their own Sect, and receive without any diſquiſition thoſe doctrines that moſt of all need it:</hi> And after he hath moſt excellently per<g ref="char:EOLhyphen"/>ſtringed this folly, he oppoſes the di<g ref="char:EOLhyphen"/>vine method to it, and tells us, the Wiſdom of God <hi>homines humano more inſtituit &amp; erudit,</hi> i. e. <hi>rationales ratio<g ref="char:EOLhyphen"/>nibus, inſtitutes and inſtructs men after the manner of men;</hi> that is, <hi>reaſonable</hi>
+               <pb n="36" facs="tcp:104500:20"/> 
+               <hi>creatures with reaſons.</hi> But I ſhall end this with the teſtimony of <hi>Athanaſius,</hi> whoſe <hi>reaſon</hi> is as <hi>great</hi> as his <hi>authority,</hi> he hath a little Tract on purpoſe a<g ref="char:EOLhyphen"/>gainſt ſuch as would have men believe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. i. e. <hi>abſolutely, and never conſider what is or is not fit to be believed;</hi> and in the bo<g ref="char:EOLhyphen"/>dy of that diſcourſe, there is one paſ<g ref="char:EOLhyphen"/>ſage which I cannot but exſcribe. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <note place="margin">Athan. <hi>Tom.</hi> 2. <hi>p.</hi> 325. <hi>Ed.</hi> Par. 162.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, i. e. <hi>Muſt I believe with<g ref="char:EOLhyphen"/>out all reaſon? must I not enquire whe<g ref="char:EOLhyphen"/>ther the notion be poſſible, uſeful or deco<g ref="char:EOLhyphen"/>rous? whether it be grateful to God, con<g ref="char:EOLhyphen"/>gruous to Nature, and conſonant to Truth? whether it be conſequent from the Text, a<g ref="char:EOLhyphen"/>greeable to the Myſtery, and worthy of Pi<g ref="char:EOLhyphen"/>ety?</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; What profit is there in a Scheme of unintelligible things? or like a <hi>Parrat</hi> or an <hi>Eccho</hi> to reverberate a ſound empty of <hi>mind</hi> and ſence?</p>
+            <p>But this <hi>Novelty,</hi> amongſt the reſt, minds me of the Precept of the Pro<g ref="char:EOLhyphen"/>phet; <hi>Stand in the ways, and ſee, and</hi> 
+               <note place="margin">Jer. 6. 16.</note> 
+               <hi>ask for the old paths, where is the good way, and walk therein, and ye ſhall find reſt for your Souls.</hi>
+            </p>
+            <p>And here let me mind you my Bre<g ref="char:EOLhyphen"/>thren
+<pb n="37" facs="tcp:104500:20"/> of the <hi>Clergy,</hi> of a <hi>Canon</hi> of our <hi>own Church,</hi> yet in force, ſpeaking of Preachers.</p>
+            <p>
+               <hi>Imprimis vero videbunt ne quid un<g ref="char:EOLhyphen"/>quam doceant pro concione quod à populo religioſe teneri &amp; credi velint, niſi quod conſentaneum ſit doctrinae veteris aut Novi Teſtamenti, quodque ex illa ipſa doctrina catholici patres, &amp; veteres Epi<g ref="char:EOLhyphen"/>ſcopi collegerint.</hi> A Canon which I read many years ſince; but never reſented its worth, until by an inſpection into ancient divinity I found how different it was from that which now reigns in our Pulpits and Preſſes. And here let me obſerve for the ſervice of my young<g ref="char:EOLhyphen"/>er Brethren, whoſe reading reaches not beyond <hi>Geneva;</hi> that thoſe Apples of ſtrife couched under the <hi>Quinquar<g ref="char:EOLhyphen"/>ticular</hi> queſtion, as <hi>they</hi> are apt to de<g ref="char:EOLhyphen"/>termine them, are as perfect a piece of <hi>Novelliſm</hi> as any other notion we con<g ref="char:EOLhyphen"/>temn under that name at this day.</p>
+            <p>He that thinks the liberty of humane minds is injurious to God's Grace, or prejudicial to the faith and comfort of Chriſtians, accuſes thoſe famous Mar<g ref="char:EOLhyphen"/>tyrs <hi>Ignatius, Irenaeus, Juſtin</hi> and <hi>Cyprian,</hi> together with <hi>Athanaſius, Baſil, Nyſſen, Nazianzen, Chryſoſtom, Ambroſe,</hi> and <hi>Jerome</hi> of the ſame crime.</p>
+            <pb n="38" facs="tcp:104500:21"/>
+            <p> And farther, let me mind you of the <hi>Anathemata</hi> of the Synod of <hi>Arles. Let</hi> 
+               <note place="margin">Anathema illi, qui per Dei praeſcientiam in mortem ho<g ref="char:EOLhyphen"/>minem deprimi dixerit. Anathema illi, qui dixerit illum qui peri<g ref="char:EOLhyphen"/>it, non accepiſſe unde ſalvus eſſe poſſet. Anathema illi, qui dixerit Vas contumeliae non poſſet aſſurgere ut ſit vas in honorem. Anathema illi, qui dixerit quod Chriſtus non pro omnibus mortuus ſit, nec omnes homines ſalvos eſſe velit.</note> 
+               <hi>him be</hi> Anathema <hi>who ſhall ſay that the divine Preſcience doth cauſe any man's death. That he who periſhed had not grace enough to be ſaved. That a veſſel of diſhonour could not riſe to be a veſſel of honour. That Chriſt did not die for all men, and would have all men to be ſaved.</hi>
+            </p>
+            <p>I might farther inſtance in the novel ſence of that famous <hi>Paragraph</hi> to the <hi>Romans,</hi> which as a <hi>great man</hi> obſerves, no man takes up but he that hath a <hi>Luſt to ſerve;</hi> and could eaſily ſhew you that the antient Church were all for a <hi>Metaſcematiſmus</hi> in the words; and that St. <hi>Auſtin</hi> himſelf, when he under<g ref="char:EOLhyphen"/>ſtood it worſt, underſtood it better than his pretended followers now do. And thus have I imperfectly pointed out the cauſes of the decay of Chriſti<g ref="char:EOLhyphen"/>an Charity in the World, and the <hi>fomes</hi> of thoſe ſcandalous diſcords which vex Chriſtendom at this day, <hi>ridente Turcâ, nec dolente Judaeo.</hi>
+            </p>
+            <p>And now I ſhall end with a ſuccinct <hi>Paraeneſis</hi> to you that have vouchſafed
+<pb n="39" facs="tcp:104500:21"/> your preſence and patience. And firſt to you my Brethren of the <hi>Clergy.</hi> Me<g ref="char:EOLhyphen"/>thinks I hear our <hi>Lord</hi> and <hi>Maſter Chriſt</hi> like another <hi>Joſeph</hi> beſpeaking his Bre<g ref="char:EOLhyphen"/>thren, going to their Father to <hi>Canaan,</hi> See that you fall not out by the way. <hi>Have ſalt in your ſelves, and have peace one with another.</hi> St. <hi>Paul</hi> propounds a great Queſtion <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>Who is ſufficient for theſe things?</hi> The <hi>Pſal<g ref="char:EOLhyphen"/>miſt</hi> thought <hi>to waſh the hands in inno<g ref="char:EOLhyphen"/>cency</hi> was an excellent preparation <hi>to compaſs the Altars of God;</hi> and no doubt but it would prepare for that wiſdom alſo, which would make us meet to wait in the <hi>Sanctuary.</hi> My Brethren, much of the peace and proſperity of God's Church depends upon our vertuous and prudent conduct of thoſe affairs con<g ref="char:EOLhyphen"/>credited to our truſt. We are conſti<g ref="char:EOLhyphen"/>tuted the Guides of Souls; and in a ſence to bear the Keys of the Kingdom of Heaven; but whilſt <hi>it ſuffers violence and the violent take it by force,</hi> let us ſee to it, that we our ſelves be not ſhut out.</p>
+            <p>Let us remember the Age we live in, 'tis <hi>nice:</hi> Many will not drink the waters of life, if offered to them in an unclean <hi>Chalice;</hi> they will not take the moſt medicinal doſe, if it be prepared
+<pb n="40" facs="tcp:104500:22"/> with <hi>foul</hi> hands. It is <hi>Philoſophical</hi> and <hi>Rational;</hi> Abſurdities will not go for Myſteries; weak and indemonſtrable Propoſitions will not paſs for ſuper<g ref="char:EOLhyphen"/>natural Verities; nor humane Preſum<g ref="char:EOLhyphen"/>ptions, for divine Revelations. Let our Diſcourſes be ſtrong and uſeful, that no prophane wit may ſay of our Exerciſes, as <hi>Gallen</hi> reproached the do<g ref="char:EOLhyphen"/>ctrine <note place="margin">
+                  <hi>Nihil tradatur populo niſi quod &amp; indubitatum eſt, &amp; ad fidei negotium ne<g ref="char:EOLhyphen"/>ceſſarium, &amp; ad piè viven<g ref="char:EOLhyphen"/>dum conduci<g ref="char:EOLhyphen"/>bile,</hi> ſaith the great <hi>Eraſmus Epiſt. lib.</hi> 24. <hi>Epiſt.</hi> 1. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> of <hi>Moſes</hi> and Chriſt; it was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>They are indemonſtra<g ref="char:EOLhyphen"/>ble.</hi> I could not read without great affection an Obſervation of the learn<g ref="char:EOLhyphen"/>ed D<hi rend="sup">r</hi>. <hi>Andrews</hi> (in his <hi>Concio ad Cle<g ref="char:EOLhyphen"/>rum</hi> in a Provincial Convocation) of ſome men who did <hi>involare in hunc lo<g ref="char:EOLhyphen"/>cum, hoc divinae ſapientiae Solium,</hi> and what does he here? <hi>hic ad Clepſydram</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>cohaerentia, non cohaeren<g ref="char:EOLhyphen"/>tia, ſcabra, putida, inſulſa, nec cocta, nec condita, praecipitare ad nauſeam uſque, &amp; hoc ſcilicet concionari dicitur;</hi> This is to preach forſooth; too too lively a Character of many a Preacher in theſe days. Let's for Chriſt ſake ſee our Do<g ref="char:EOLhyphen"/>ctrine and our lives be pure and paci<g ref="char:EOLhyphen"/>fick. If our Doctrines be doubtful and litigious, and our Lives be careleſs and ſcandalous, (but I'le rather uſe the words of the <hi>pious</hi> Author) <hi>Si Doctri<g ref="char:EOLhyphen"/>na ludibrium, ſi Vita ſcandalum, fortaſſe</hi>
+               <pb n="41" facs="tcp:104500:22"/> 
+               <hi>non momento uno, non ictu oculi; ſed ſen<g ref="char:EOLhyphen"/>ſim tamen ſeneſcet, evaneſcet, tendet ad interitum Ordo veſter</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Nay I'le add a few words more of that good Man from the ſame Paragraph. <hi>Enimvero niſi vos vobis hac parte cavea<g ref="char:EOLhyphen"/>tis, optimi Principis gratia, Procerum fa<g ref="char:EOLhyphen"/>vor, Legum terror diu vobis cavere non poterunt.</hi> But <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Well, you ſee <hi>Purity</hi> and <hi>Peace</hi> is in the precept of our Lord; the beſt method I know to de<g ref="char:EOLhyphen"/>rive it into our hearts and lives, is laid down in this ſudden diſcourſe; eſpe<g ref="char:EOLhyphen"/>cially in that obſervation of the <hi>Learn<g ref="char:EOLhyphen"/>ed King,</hi> who would have us diſtin<g ref="char:EOLhyphen"/>guiſh between <hi>Neceſſaries</hi> and <hi>Non-ne<g ref="char:EOLhyphen"/>ceſsaries,</hi> and tells us the duty of every <hi>peaceable</hi> Divine is to explicate, to urge, to teach that diſtinction.</p>
+            <p>And for your divertiſement, now and then if you ſpent ſome time in <hi>Nazian<g ref="char:EOLhyphen"/>zen</hi>'s <hi>Apology, Chryſoſtom de Sacerdotio,</hi> and the 81. Paragraph of Mr. <hi>Hooker</hi>'s Eccleſiaſtical Polity; as you would have no cauſe to repent your pains, no more ſhould I that have put you in remem<g ref="char:EOLhyphen"/>brance ſo to do.</p>
+            <p>And now my Brethren of the Laity, let me ſpeak to you in a few words, <hi>You</hi> are concerned in the Text as well as <hi>We. Purity</hi> and Peaceableneſs becomes
+<pb n="42" facs="tcp:104500:23"/> you, if you will comport with the pre<g ref="char:EOLhyphen"/>cept of our Lord: have you any <hi>pride</hi> that extimulates and provokes you ſome<g ref="char:EOLhyphen"/>times, (to uſe the Prophet's expreſſion) to ſtrive with the Prieſt; and, which is worſe, to run from the Communion of that Church which bore you on her knees, and nouriſhed you with her breaſts? have you any <hi>Avarice,</hi> which when you fled from Idols praecipitated you into Sacrilege? theſe would be ſalted out. Well, Peaceableneſs you ſee is your duty, and Purgation in order thereunto. <hi>Schiſm</hi> is the direct contra<g ref="char:EOLhyphen"/>diction to my Text; and you perceive how little reaſon any one hath, ſo to requite the <hi>Prudence</hi> and the <hi>Charity</hi> of that Church, wherein we have had the happineſs to be educated.</p>
+            <p>Are the conditions of her Communi<g ref="char:EOLhyphen"/>on <hi>ſinful?</hi> Or are you obliged to pro<g ref="char:EOLhyphen"/>feſs that which you <hi>believe</hi> is falſe, or practiſe that which you <hi>know</hi> is ſinful? Let me requeſt in her behalf, that you would not make the Sentiments of eve<g ref="char:EOLhyphen"/>ry angry Son of hers the meaſures of her Charity: or if you ſpy the tokens of <hi>Avarice,</hi> or <hi>Ambition</hi> on other of her Sons, you would not make them the meaſures of her Piety.</p>
+            <p>What is it that frights you from her
+<pb n="43" facs="tcp:104500:23"/> Communion? It muſt certainly be re<g ref="char:EOLhyphen"/>duced to her Doctrine, or her Manners. Doth ſhe teach any ſuſpected Doctrines? what then? ſhe diſclaims infallibility: though it may be ſhe is nearer it than thoſe that talk loudeſt of it. She gives you leave to ſuſpect; nay deſigns by her ſubſcriptions (which yet are not required from you) but an Inſtrument of peace; if the beſt, and moſt learn<g ref="char:EOLhyphen"/>ed <note place="margin">Bps. <hi>Laud, Bramhall, Sanderſon.</hi>
+               </note> of her Sons do know her mind. Does any of her Doctrines deſtroy ſalvation? Indeed they of <hi>Rome</hi> ſay <hi>Proteſtancy</hi> un<g ref="char:EOLhyphen"/>repented deſtroys ſalvation; but I think neither you nor we have cauſe to believe them. Well then, if <hi>Salvati<g ref="char:EOLhyphen"/>on</hi> may be had with us, Take heed you don't run the hazard of it by an unneceſſary Separation from them here, whom (if ever you come to heaven) you muſt accompany hereafter. But are her manners defective? what do you mean? She teaches you to believe by the <hi>Apoſtles Creed,</hi> to pray by the <hi>Example</hi> of her Lord, and to live by the <hi>Precepts</hi> of her Saviour.</p>
+            <p>But you ſee ſome indications of car<g ref="char:EOLhyphen"/>nality upon her Children; like enough; and ſo you might in the Children of A<g ref="char:EOLhyphen"/>poſtolick Churches, and may in the moſt confident pretenders to the moſt
+<pb n="44" facs="tcp:104500:24"/> primitive Reformation. I have done. Methinks you ſhould grant me, that e<g ref="char:EOLhyphen"/>ven in our Communion you may be as <hi>holy</hi> and as <hi>humble,</hi> as <hi>meek</hi> and as <hi>mer<g ref="char:EOLhyphen"/>ciful,</hi> as <hi>pure</hi> and as <hi>peaceable,</hi> as perfect <hi>imitatours of the Divine Nature,</hi> as ar<g ref="char:EOLhyphen"/>dent <hi>lovers of God and your Neighbour</hi> as will comport with the Commandement, and entitle you to the Promiſe, which is ETERNAL LIFE.</p>
+            <p>
+               <hi>Now to the King Eternal, Im<g ref="char:EOLhyphen"/>mortal, Inviſible, the only wiſe God be Honour and Glory for ever and for ever.</hi> Amen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
